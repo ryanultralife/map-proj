@@ -56,6 +56,7 @@ footer{border-top:1px solid var(--line);padding:18px 0 40px;font-size:11.5px;col
 <button data-t="map">Evidence Map</button>
 <button data-t="verified">Verified Records</button>
 <button data-t="data">Data & Downloads</button>
+<button data-t="provenance">Provenance</button>
 </nav>
 </div></div></header>
 <div class="wrap">
@@ -129,6 +130,20 @@ footer{border-top:1px solid var(--line);padding:18px 0 40px;font-size:11.5px;col
 <li><a href="https://www.tandfonline.com/doi/full/10.1080/26895269.2022.2100644">SOC8 publication (IJTH 2022)</a></li>
 <li><a href="https://onlineacademiccommunity.uvic.ca/ahdevor/publications/erickson/">Devor — Erickson/EEF origin-funding scholarship</a></li>
 </ul>
+</section>
+
+<section id="provenance">
+<h2>How this was made — the complete record</h2>
+<p>This audit was built in a single AI-assisted research session (Claude, Anthropic) on July 4–5, 2026, directed by a human operator. Rather than describe the process, we publish it: the full conversation transcript — including every warning the model raised, every request it declined, every correction made along the way, and the external reviews it pushed back on — is available verbatim below.</p>
+<p><a href="PASTE_SHARE_LINK_HERE"><b>→ Read the complete conversation transcript</b></a> (hosted by Anthropic; unedited platform snapshot)</p>
+<h2>What the transcript shows</h2>
+<ol class="findings">
+<li><b>The scope was corrected early.</b> The initial request assumed per-author conflict data could be transcribed from public documents. The session's first finding was that it mostly doesn't exist in published form — and that any table instantly filled would be partly fabricated. The audit was rebuilt around that fact.</li>
+<li><b>Requests were declined where accuracy required it.</b> Mass-populating "undeclared conflict" cells from search snippets for 125 named people was refused (identity-matching risk); a 1–5 "who to look at first" scoring of named clinicians was refused and replaced with neutral, cited category tags; a transcript of this conversation reconstructed from the model's memory was refused in favor of the platform's verbatim snapshot.</li>
+<li><b>External review was incorporated critically.</b> One reviewer's "84 declared conflicts" claim was checked against the file, found wrong on both the number (73) and the framing (declared interests ≠ conflicts), and the correction is now a permanent warning on the artifact itself.</li>
+<li><b>Known limits are stated, not hidden.</b> Several deposition quotes are cited via briefs that quote the exhibits and await page:line verification against transcripts; roster rows await a verbatim check against the official WPATH PDF; no legal review has occurred. The transcript shows these gates being flagged repeatedly.</li>
+</ol>
+<p style="font-size:12px;color:var(--dim)">Snapshot scope note: per the platform's sharing design, attached files and raw tool-retrieval payloads are not displayed in shared snapshots — the transcript shows the complete conversation and outputs as rendered. All underlying source documents are independently reachable via the citations throughout this site.</p>
 </section>
 
 <footer>
